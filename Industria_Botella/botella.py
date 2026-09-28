@@ -1,11 +1,13 @@
-class Botella:
-    def __init__(self):
-        self.material = " "
-        self.capacidad = " "
-        self.forma = " "
-        self.diseño = " "
-        self.tapa = " "
-        self.grabados = " "
+class botella:
+
+    def __init__(self, tipo_material, material, capacidad, forma, diseño, tapa, grabados):
+        self.tipo_material = tipo_material
+        self.material = material
+        self.capacidad = capacidad
+        self.forma = forma
+        self.diseño = diseño
+        self.tapa = tapa
+        self.grabados = grabados
 
     def contenedor_liquido(self):
         print("la botella almacena liquidos")
@@ -20,7 +22,7 @@ class Botella:
         print("la botella puede transportarse ")
 
     def manejo(self):
-        print("la botella puede manejarse ")
+        print("la botella es facil de manejar ")
 
     def compatibilidad_bebidas(self):
         print("la botella aguanta Frio y Calor")
@@ -30,9 +32,3 @@ class Botella:
 
     def Transparencia(self):
         print("la botella es transparente")
-
-#* Codigo Principañ *
-
-Botella1 = Botella()
-
-print
